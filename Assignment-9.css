@@ -1,0 +1,74 @@
+body {
+  font-family: "Roboto", sans-serif;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+/* header  */
+#header {
+  background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
+    url(header-background-a9.jpg) center/cover no-repeat;
+  min-height: 90vh;
+}
+
+.dashed-border {
+  border: 1px dashed white;
+  width: fit-content;
+  position: relative;
+}
+
+.dashed-border > h3 {
+  position: absolute;
+  width: fit-content;
+  margin: 0 auto;
+  left: 12.5%;
+}
+/* end of header  */
+
+/* navigation */
+.nav-height {
+  min-height: 5vh;
+}
+/* end of navigation */
+
+/* feature */
+.title {
+  width: 200px;
+  height: 10px;
+  margin: 0 auto;
+}
+
+.feature-height {
+  min-height: 80vh;
+}
+
+.far {
+  font-size: 4rem;
+  border: 1px solid red;
+  padding: 20px;
+}
+/* end of feature */
+
+/* about us  */
+.header-title {
+  border: 1px dashed rgb(0, 0, 0);
+  width: fit-content;
+}
+
+.about-us-height {
+  min-height: 30vh;
+  width: 100%;
+}
+/* end of about us  */
+
+/* top skills */
+
+/* end of top skills */
