@@ -1,74 +1,167 @@
 body {
   font-family: "Roboto", sans-serif;
-  max-width: 100%;
 }
 
 * {
   box-sizing: border-box;
-  line-height: 1.6;
 }
 
-h1 {
-  font-size: 6rem;
+img {
+  width: 100%;
 }
 
 /* header  */
 #header {
   background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
     url(header-background-a9.jpg) center/cover no-repeat;
+
+  max-width: 100%;
   min-height: 90vh;
+  padding-top: 4em;
 }
 
-.dashed-border {
-  border: 1px dashed white;
-  width: fit-content;
-  position: relative;
+h5,
+.active {
+  color: #10a8be;
 }
 
-.dashed-border > h3 {
-  position: absolute;
-  width: fit-content;
+.header-title {
+  border: 1px dashed #ffffff;
+  max-width: 60%;
   margin: 0 auto;
-  left: 12.5%;
+  position: relative;
+  padding: 1em 0px;
+}
+
+.header-item {
+  position: absolute;
+  width: 40%;
+  background-color: #ffffff;
+  color: #10a8be;
+  top: 88%;
+  left: 30%;
 }
 /* end of header  */
 
-/* navigation */
-.nav-height {
-  min-height: 5vh;
+/* navigation  */
+ul {
+  margin-left: auto;
 }
-/* end of navigation */
 
-/* feature */
-.title {
-  width: 200px;
+ul li a {
+  color: #000000 !important;
+  margin-left: 10px;
+}
+
+nav {
+  padding: 1em 0px;
+}
+
+.navbar-brand {
+  color: #10a8be !important;
+  font-size: 2rem;
+}
+
+.active {
+  color: #10a8be !important;
+}
+
+/* end of navigation  */
+
+/* feature  */
+#feature,
+#top-skills {
+  background-color: #e8eced;
+  min-height: 100vh;
+  padding: 5% 0px;
+}
+
+h2::before,
+h2::after {
+  background-color: #10a8be;
+  content: "";
+  width: 15%;
   height: 10px;
+  display: block;
   margin: 0 auto;
 }
 
-.feature-height {
-  min-height: 80vh;
+.feature-item {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000000;
+  width: 140px;
+  height: 80px;
+  border: 2px solid #10a8be;
+  border-top: transparent;
+  border-bottom: transparent;
+  text-align: center;
+  font-size: 80px;
+  line-height: 80px;
 }
 
-.far {
-  font-size: 4rem;
-  border: 1px solid red;
-  padding: 20px;
+.feature-item::before,
+.feature-item::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 2px solid #10a8be;
+  border-top: transparent;
+  border-bottom: transparent;
+  transform: rotate(0deg);
+}
+
+.feature-item::before {
+  transform: rotate(120deg);
+}
+
+.feature-item::after {
+  transform: rotate(-120deg);
+}
+
+.underline {
+  position: relative;
+}
+
+.feature-item > div {
+  width: 34%;
+  text-align: center;
+}
+
+.underline {
+  content: "";
+  background: #10a8be;
+  width: 34%;
+  height: 10px;
+  display: block;
+  margin: 0 auto;
 }
 /* end of feature */
 
 /* about us  */
-.header-title {
-  border: 1px dashed rgb(0, 0, 0);
-  width: fit-content;
+#about-us {
+  padding: 10% 0px;
 }
 
-.about-us-height {
-  min-height: 30vh;
-  width: 100%;
+.about-title {
+  border: 1px dashed #000000;
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 1em 0px;
+}
+
+.title-item {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
 }
 /* end of about us  */
 
-/* top skills */
+/* top skills  */
 
-/* end of top skills */
+/* end of top skills  */
