@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -14,6 +16,8 @@ img {
 #header {
   background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
     url(header-background-a9.jpg) center/cover no-repeat;
+
+  background-attachment: fixed;
 
   max-width: 100%;
   min-height: 90vh;
@@ -70,7 +74,10 @@ nav {
 
 /* feature  */
 #feature,
-#top-skills {
+#top-skills,
+#choose-plan,
+#tweet,
+#touch {
   background-color: #e8eced;
   min-height: 100vh;
   padding: 5% 0px;
@@ -144,7 +151,13 @@ h2::after {
 /* end of feature */
 
 /* about us  */
-#about-us {
+#about-us,
+#service,
+#portfolio,
+#client,
+#blog,
+#watch,
+#contact {
   padding: 10% 0px;
 }
 
@@ -165,3 +178,159 @@ h2::after {
 /* top skills  */
 
 /* end of top skills  */
+
+/* our team  */
+#our-team {
+  background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
+    url(our-team-background-1-a9.jpeg) bottom/cover no-repeat;
+  /* background-attachment: fixed; */
+  max-width: 100%;
+  min-height: 150vh;
+  padding-top: 4em;
+}
+
+.card-section {
+  background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
+    url(our-team-background-2-a9.jpeg) bottom/cover no-repeat;
+  background-attachment: fixed;
+  max-width: 100%;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+.card img {
+  height: 300px;
+  padding-bottom: 40px;
+}
+
+#our-team .card {
+  background-color: transparent;
+  min-height: 450px;
+}
+/* end of our team  */
+
+/* info */
+.info {
+  background: #10a8be;
+  min-height: 25vh;
+  display: flex;
+  align-items: center;
+}
+
+.info h3 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.info .fas,
+.info .far,
+#service .fas,
+#core .fas,
+#core .far {
+  font-size: 3rem;
+}
+/* end of info  */
+
+/* service  */
+/* end of service  */
+
+/* core  */
+#core {
+  background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
+    url(core-background-a9.jpeg) center/cover no-repeat;
+  background-attachment: fixed;
+  max-width: 100%;
+  min-height: 100vh;
+  padding: 5% 0px;
+  display: flex;
+  align-items: center;
+}
+
+#core h2::before,
+#core h2::after {
+  background-color: #ffffff;
+  content: "";
+  width: 20%;
+  height: 10px;
+  display: block;
+  margin: 0 auto;
+}
+/* end of core  */
+
+/* portfolio */
+.button {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.active-btn {
+  background-color: #10a8be;
+  color: #ffffff;
+}
+#portfolio img {
+  height: 200px;
+}
+
+/* end of portfolio */
+
+/* choose plan  */
+.triangle {
+  width: 0;
+  height: 0;
+  border-bottom: 120px solid #10a8be;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  margin: 0 auto;
+  position: relative;
+}
+
+.price > p {
+  margin: 0;
+}
+
+.price {
+  position: absolute;
+  top: 25%;
+  left: 43%;
+}
+/* end of choose plan  */
+
+/* client  */
+#client {
+  background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
+    url(client-a9.jpeg) center/cover no-repeat;
+  background-attachment: fixed;
+  max-width: 100%;
+  min-height: 110vh;
+}
+
+#client img {
+  width: 130px;
+  height: 130px;
+}
+
+#client span {
+  font-size: 10rem;
+}
+
+.client-footer {
+  background-color: #10a8be;
+  font-family: "Monoton", cursive;
+  font-size: 3rem;
+}
+/* end of client  */
+
+/* latest tweet  */
+/* end of latest tweet  */
+
+/* watch this  */
+#watch {
+  background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
+    url(client-a9.jpeg) center/cover no-repeat;
+  background-attachment: fixed;
+  max-width: 100%;
+  min-height: 110vh;
+}
+/* end of watch this */
