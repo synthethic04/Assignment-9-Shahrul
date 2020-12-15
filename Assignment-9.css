@@ -223,7 +223,8 @@ h2::after {
 .info .far,
 #service .fas,
 #core .fas,
-#core .far {
+#core .far,
+.map .fab {
   font-size: 3rem;
 }
 /* end of info  */
@@ -284,10 +285,20 @@ h2::after {
   margin: 0;
 }
 
+.price-size {
+  font-size: 1.3rem;
+}
+
 .price {
   position: absolute;
   top: 25%;
   left: 43%;
+}
+
+#choose-plan span,
+#choose-plan sub {
+  color: #10a8be;
+  font-weight: 900;
 }
 /* end of choose plan  */
 
@@ -316,13 +327,149 @@ h2::after {
 /* end of client  */
 
 /* latest tweet  */
+#tweet a {
+  text-decoration: none;
+}
+
+#tweet .fab {
+  font-size: 5rem;
+  color: #10a8be;
+}
 /* end of latest tweet  */
 
 /* watch this  */
 #watch {
   background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
-    url(client-a9.jpeg) center/cover no-repeat;
+    url(watch-a9.jpeg) top/cover no-repeat;
   max-width: 100%;
   min-height: 110vh;
 }
 /* end of watch this */
+
+/* contact  */
+#contact .form-control {
+  background-color: #e8eced;
+  border: none;
+  margin: 20px 0px;
+}
+
+#contact .apa {
+  width: 100%;
+  border: 3px solid #e8eced;
+  background-color: transparent;
+  color: #10a8be;
+  font-weight: bolder;
+  padding: 7px 0px;
+}
+/* end of contact */
+
+/* touch */
+#touch .square {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.s1 {
+  background-color: purple;
+}
+
+.s2 {
+  background-color: red;
+}
+
+.s3 {
+  background-color: yellow;
+}
+
+.s4 {
+  background-color: green;
+}
+
+#touch .fas,
+#touch .far,
+#touch .fab {
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+#touch .apa {
+  width: 100%;
+  border: 6px solid #10a8be;
+  background-color: #ffffff;
+  font-weight: bolder;
+  padding: 7px 0px;
+}
+/* end of touch */
+
+/* map  */
+.map {
+  background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
+    url(map-a9.jpeg) center/cover no-repeat;
+  max-width: 100%;
+  min-height: 110vh;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-footer {
+  width: 70px;
+  height: 70px;
+  background-color: #454748;
+  color: #ffffff;
+  margin: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* end of map  */
+
+@media screen and (max-width: 576px) {
+  #header span {
+    font-size: 0.6rem;
+  }
+
+  .header-item {
+    width: 60%;
+    left: 20%;
+  }
+
+  h2::before,
+  h2::after {
+    width: 21%;
+  }
+
+  .card img {
+    height: 383px;
+  }
+
+  #our-team .card {
+    margin-bottom: 30px;
+  }
+
+  #portfolio h1 {
+    font-size: 2.4rem;
+  }
+
+  #portfolio img {
+    height: 240px;
+  }
+
+  .price {
+    left: 45.5%;
+  }
+
+  #touch .touch-item {
+    margin-bottom: 55px;
+  }
+
+  .map-height {
+    height: 400px;
+  }
+}
