@@ -13,6 +13,20 @@ img {
 }
 
 /* header  */
+
+#header::before {
+  content: " ";
+  display: block;
+  background-image: url("path-to-your-image");
+  background-position: bottom left;
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: -10;
+}
 #header {
   background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
     url(header-background-a9.jpg) center/cover no-repeat;
@@ -22,10 +36,6 @@ img {
   max-width: 100%;
   min-height: 90vh;
   padding-top: 4em;
-
-  top: 0;
-  left: 0;
-  z-index: -1000;
 }
 
 h5,
