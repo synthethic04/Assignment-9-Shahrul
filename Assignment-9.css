@@ -16,21 +16,9 @@ img {
 #header {
   background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
     url(header-background-a9.jpg) center/cover no-repeat;
-
-  background-attachment: fixed;
-
   max-width: 100%;
   min-height: 90vh;
   padding-top: 4em;
-
-  display: block;
-  left: 0;
-  top: 0;
-  z-index: -10;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 h5,
@@ -192,7 +180,6 @@ h2::after {
 #our-team {
   background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
     url(our-team-background-1-a9.jpeg) bottom/cover no-repeat;
-  /* background-attachment: fixed; */
   max-width: 100%;
   min-height: 150vh;
   padding-top: 4em;
@@ -201,7 +188,6 @@ h2::after {
 .card-section {
   background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
     url(our-team-background-2-a9.jpeg) bottom/cover no-repeat;
-  background-attachment: fixed;
   max-width: 100%;
   min-height: 90vh;
   display: flex;
@@ -249,7 +235,6 @@ h2::after {
 #core {
   background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
     url(core-background-a9.jpeg) center/cover no-repeat;
-  background-attachment: fixed;
   max-width: 100%;
   min-height: 100vh;
   padding: 5% 0px;
@@ -310,7 +295,6 @@ h2::after {
 #client {
   background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
     url(client-a9.jpeg) center/cover no-repeat;
-  background-attachment: fixed;
   max-width: 100%;
   min-height: 110vh;
 }
@@ -338,7 +322,6 @@ h2::after {
 #watch {
   background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
     url(client-a9.jpeg) center/cover no-repeat;
-  background-attachment: fixed;
   max-width: 100%;
   min-height: 110vh;
 }
