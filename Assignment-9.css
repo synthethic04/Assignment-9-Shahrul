@@ -41,7 +41,7 @@ img {
   position: fixed;
   z-index: -10;
 } */
-#header {
+/* #header {
   background: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)),
     url(header-background-a9.jpg) center/cover no-repeat;
 
@@ -50,7 +50,7 @@ img {
   max-width: 100%;
   min-height: 90vh;
   padding-top: 4em;
-}
+} */
 
 h5,
 .active {
